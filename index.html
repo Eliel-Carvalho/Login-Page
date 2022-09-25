@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css externo -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/app.js" defer></script>
+    <title>Login Page</title>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <main class="conteiner">
+
+           <picture class="img-principal">
+               <source media="(max-width:1441px)" srcset="assets/img/cropped-image/bglmage (1).jpg">
+               <img src="assets/img/bgImage.svg" alt="">
+           </picture>
+
+            <div class="form">
+                
+                <form action="#">
+                    <figure class="img-1">
+                        <img src="assets/img/Group 1686550876.png" alt="logo">
+                    </figure> 
+
+                        <div class="form-text">
+
+                            <h1>Login to your Account</h1>
+
+                            <p>See what is going on with your business</p>
+                            
+                        </div>
+
+                        <div id="buttonDiv"></div> 
+
+                        <div class="login-email">
+                            <p>------------- or Sign in with Email ------------- </p>
+                        </div>
+
+                        <div class="input-group">
+                            
+                            <div class="input-box">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="email@abc.com" class="removi">
+                                <small name="TextPequeno" >Mensagem de erro</small>
+                            </div>
+                            
+                            <div class="input-box">
+                                <label for="password">Senha</label>
+                                <input type="password" name="password" id="password" placeholder="********" minlength="4" class="removi">
+                                <small name="TextPequeno">Mensagem de erro</small>
+                            
+                            </div>
+
+                            <div class="forgot">
+                                <div>
+                                    <input type="checkbox" name="Remember " id="Remember ">
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <a href="#">Forgot Password?</a>
+                            </div>
+
+                            <div class="Login">
+                                <button id="submit">Login</button>
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="form-footer">
+
+                            <span>Not Registered Yet? </span>
+                            <a href="#">Create an account</a>
+                            
+                        </div>
+
+                </form>
+            </div>
+
+    </main>
+</body>
+</html>
